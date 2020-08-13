@@ -1,0 +1,75 @@
+//{
+//  "compilerOptions": {
+//    "target": "es5",
+//    "lib": [
+//      "dom",
+//      "dom.iterable",
+//      "esnext"
+//    ],
+//    "allowJs": true,
+//    "skipLibCheck": true,
+//    "esModuleInterop": true,
+//    "allowSyntheticDefaultImports": true,
+//    "strict": true,
+//    "experimentalDecorators": true,
+//    "emitDecoratorMetadata": true,
+//    "forceConsistentCasingInFileNames": true,
+//    "module": "esnext",
+//    "moduleResolution": "node",
+//    "resolveJsonModule": true,
+//    "isolatedModules": true,
+//    "noEmit": true,
+//    "jsx": "react"
+//  },
+//  "include": [
+//    "src"
+//  ]
+//}
+
+
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": [
+      "es2017",
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "ES2017",
+    "strict": true,
+    "pretty": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "lib",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strictPropertyInitialization": false,
+    "noEmit": true,
+    "incremental": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
